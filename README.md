@@ -107,7 +107,7 @@
 
 ## Deploy To Render
 <h3><b>Click on the below button to deploy on Render ↓</b></h3>
-<a href="https://render.com/deploy?repo=https://github.com/unique-shadows/auto-filter-movies-bot">
+<a href="https://render.com/deploy?repo=https://github.com/vinay366/auto-filter-movies-bot">
 <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render">
 
 <h4><b>Go to https://uptimerobot.com/ and add a monitor to keep your bot alive.</b></h4>
