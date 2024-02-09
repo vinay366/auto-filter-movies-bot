@@ -53,8 +53,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 BOT_USERNAME = environ.get('BOT_USERNAME', 'telegram')
 # Others
 VERIFY = bool(environ.get('VERIFY', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'upshrink.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '98a69f7ad9fb9461bde44f3a4399d6180b4298b3')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
+SHORTLINK_API = environ.get('SHORTLINK_API', '77eecd0b6eb8afe91f269d2d774dc73587b0de93')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
