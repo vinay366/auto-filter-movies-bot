@@ -96,6 +96,7 @@ async def Lazy_start():
 
 if __name__ == '__main__':
     try:
+        logger.info("Hi")
         loop.run_until_complete(Lazy_start())
     except KeyboardInterrupt:
         logging.info('Service Stopped Bye 👋')
